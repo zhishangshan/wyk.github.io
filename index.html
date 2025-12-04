@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="资深Google SEO专家个人主页，提供整站优化、流量增长及内容营销策略服务。">
+    <meta name="keywords" content="Google SEO, 搜索引擎优化, 流量增长, Technical SEO, 独立站运营">
+    <title>Google SEO 专家 | 个人主页</title>
+    <style>
+        /* CSS 变量定义配色 */
+        :root {
+            --primary-color: #4285F4; /* Google Blue */
+            --secondary-color: #34A853; /* Google Green */
+            --text-dark: #202124;
+            --text-gray: #5f6368;
+            --bg-light: #f8f9fa;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 导航栏 */
+        header {
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 1rem 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: var(--text-dark);
+            text-decoration: none;
+        }
+
+        .nav-links a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: var(--text-gray);
+            font-weight: 500;
+        }
+
+        .nav-links a:hover, .nav-links a.active {
+            color: var(--primary-color);
+        }
+
+        /* Hero 区域 */
+        .hero {
+            max-width: 800px;
+            margin: 60px auto;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: var(--text-gray);
+            margin-bottom: 30px;
+        }
+
+        /* 技能网格 */
+        .skills-section {
+            background-color: var(--bg-light);
+            padding: 60px 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        h2::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background: var(--primary-color);
+            margin: 10px auto 0;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-color: var(--primary-color);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+
+        /* 底部 */
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--text-gray);
+            font-size: 0.9rem;
+            border-top: 1px solid #eee;
+        }
+
+        /* 按钮样式 */
+        .btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 10px 25px;
+            border-radius: 4px;
+            text-decoration: none;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        
+        .btn:hover {
+            background-color: #3367d6;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">SEO Profile.</a>
+            <div class="nav-links">
+                <a href="index.html" class="active">主页</a>
+                <a href="cases.html">实战案例</a>
+                <a href="mailto:your-email@example.com">联系我</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="touxiang.jpg" alt="SEO专家头像" class="avatar">
+            <h1>你好，我是 [您的名字]</h1>
+            <p class="subtitle">专注 Google SEO 流量增长 | 7年+ 白帽优化经验</p>
+            <p style="color: #666; max-width: 600px; margin: 0 auto;">
+                擅长通过 Technical SEO 修复技术漏洞，利用数据驱动的内容策略提升关键词排名。
+                熟悉 Google 算法更新，致力于为企业带来长期、稳定的自然流量增长。
+            </p>
+            <a href="cases.html" class="btn">查看流量增长案例</a>
+        </section>
+
+        <section class="skills-section">
+            <div class="container">
+                <h2>核心竞争力</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Technical SEO</h3>
+                        <p>擅长使用 Screaming Frog 和 GSC 进行技术诊断，优化 Core Web Vitals、爬取预算及网站架构。</p>
+                    </div>
+                    <div class="card">
+                        <h3>Content Strategy</h3>
+                        <p>基于用户搜索意图（Search Intent）构建内容孤岛（Topic Cluster），提升长尾词覆盖率。</p>
+                    </div>
+                    <div class="card">
+                        <h3>Link Building</h3>
+                        <p>拥有高质量外链资源，擅长通过 Guest Post 和数字公关获取高权重权威反向链接。</p>
+                    </div>
+                    <div class="card">
+                        <h3>Data Analysis</h3>
+                        <p>精通 GA4、GTM 及 Data Studio 数据可视化，用数据量化 ROI，拒绝盲目优化。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 SEO Portfolio. Built with valid HTML5 & CSS3.</p>
+    </footer>
+
+</body>
+</html>
