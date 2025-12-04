@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>实战案例 | Google SEO 成果展示</title>
+    <style>
+        /* 复制 index.html 的所有 style 内容到这里 */
+        /* 为了简洁，我只写差异部分的样式，您需要保留上面的基础样式 */
+        :root { --primary-color: #4285F4; --bg-light: #f8f9fa; --text-dark: #202124; --text-gray: #5f6368; }
+        body { font-family: sans-serif; margin: 0; color: var(--text-dark); line-height: 1.6; }
+        header { background: white; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 0; }
+        nav { max-width: 1000px; margin: 0 auto; padding: 1rem 20px; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-weight: bold; font-size: 1.2rem; text-decoration: none; color: var(--text-dark); }
+        .nav-links a { margin-left: 20px; text-decoration: none; color: var(--text-gray); }
+        .nav-links a.active { color: var(--primary-color); font-weight: bold; }
+        
+        .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+        
+        /* 案例特有样式 */
+        .case-item {
+            display: flex;
+            background: white;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            flex-wrap: wrap;
+        }
+
+        .case-data {
+            flex: 1;
+            padding: 30px;
+            background: #f8f9fa;
+            border-right: 1px solid #eee;
+            min-width: 250px;
+        }
+
+        .case-content {
+            flex: 2;
+            padding: 30px;
+            min-width: 300px;
+        }
+
+        .stat-box {
+            margin-bottom: 20px;
+        }
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            display: block;
+        }
+        .stat-label {
+            font-size: 0.9rem;
+            color: var(--text-gray);
+            text-transform: uppercase;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 8px;
+            background: #e8f0fe;
+            color: var(--primary-color);
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin-bottom: 10px;
+        }
+
+        h2 { margin-top: 0; }
+
+        @media (max-width: 768px) {
+            .case-item { flex-direction: column; }
+            .case-data { border-right: none; border-bottom: 1px solid #eee; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">SEO Profile.</a>
+            <div class="nav-links">
+                <a href="index.html">主页</a>
+                <a href="cases.html" class="active">实战案例</a>
+                <a href="mailto:your-email@example.com">联系我</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 style="margin-bottom: 40px; text-align: center;">SEO 流量增长案例</h1>
+
+        <article class="case-item">
+            <div class="case-data">
+                <div class="stat-box">
+                    <span class="stat-number">+240%</span>
+                    <span class="stat-label">自然流量增长</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">Top 3</span>
+                    <span class="stat-label">核心关键词排名</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">6 Months</span>
+                    <span class="stat-label">项目周期</span>
+                </div>
+            </div>
+            <div class="case-content">
+                <span class="badge">B2B 机械行业</span>
+                <h2>某跨境电商独立站整站优化</h2>
+                <p><strong>挑战：</strong> 网站收录量低，存在大量重复页面，核心关键词排在 50 名开外。</p>
+                <p><strong>策略：</strong></p>
+                <ul>
+                    <li>重构网站 URL 结构，实施 Canonical 标签策略解决重复内容。</li>
+                    <li>建立 Silo 架构（筒仓结构），增强页面相关性。</li>
+                    <li>针对 "Industrial Machinery" 等高价值词进行长文内容布局。</li>
+                </ul>
+                <p><strong>结果：</strong> 6个月内，日均 UV 从 200 突破至 1500+，询盘转化率提升 1.5%。</p>
+            </div>
+        </article>
+
+        <article class="case-item">
+            <div class="case-data">
+                <div class="stat-box">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">获得高权重外链</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">DA 12 → 35</span>
+                    <span class="stat-label">域名权重提升</span>
+                </div>
+            </div>
+            <div class="case-content">
+                <span class="badge">SaaS 软件服务</span>
+                <h2>新站冷启动与外链建设</h2>
+                <p><strong>挑战：</strong> 全新域名，没有任何外链基础，信任度极低。</p>
+                <p><strong>策略：</strong></p>
+                <ul>
+                    <li>竞争对手外链分析 (Gap Analysis)，锁定高机会外链源。</li>
+                    <li>通过 Skyscraper Technique (摩天大楼技术) 创作高质量资源页。</li>
+                    <li>执行 Guest Posting 计划，获取行业垂直媒体背书。</li>
+                </ul>
+            </div>
+        </article>
+
+    </div>
+
+    <footer style="text-align: center; padding: 20px; color: #666; font-size: 0.9rem;">
+        &copy; 2025 SEO Portfolio. <br> 数据驱动增长，内容创造价值。
+    </footer>
+
+</body>
+</html>
